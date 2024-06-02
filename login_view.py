@@ -42,7 +42,6 @@ class Login:
         self.entry_password.place(x=260, y=350)
         self.btn_login.place(x = 350, y=450)
 
-
     def login_home(self):
         username = self.entry_username.get()
         password = self.entry_password.get()
